@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    height: 100vh;
+    font-family: cursive;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    flex-basis: 50%;
+    background: linear-gradient(To right,rgb(0, 44, 0), rgb(3, 145, 3));
+    padding-left: 30px;
+
+    
+}
+.left{
+    width: 50%;
+    text-align: center;
+    color: white;
+    
+}
+.right{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    /* background-size: cover; */
+    color: white;
+    font-size: 30px;
+    gap: 10px;
+    grid-column: 1/2;
+    height: 80vh;
+    
+   
+}
+.Childimg{
+    background-size: cover;
+    display: flex;
+    background-position: top;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    background-blend-mode: difference ;
+    transition: all 1s ease-in-out ;
+}
+
+.row-2{
+    grid-row: span 2;
+
+}
+.col-2{
+    grid-column: span 2;
+
+}
+.Childimg:hover{
+    background-position: center;
+    background-blend-mode: lighten;
+}
+#Plantation{
+    background-position: left;
+
+}
+
+#Nature,#Beach{
+    background-position: left;
+}
+
+#Nature:hover,#Beach:hover,#Plantation:hover{
+    background-position: center;
+    
+
+}
