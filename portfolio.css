@@ -75,6 +75,7 @@ main{
 @media(max-width: 1024px){
     main{
         flex-direction: column;
+        background-color: blue;
         
     }
     .right{
@@ -84,6 +85,8 @@ main{
         grid-row: span 1;
         grid-column: span 3;
     }
+    
 
 }
+
 
