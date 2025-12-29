@@ -72,3 +72,18 @@ main{
 
 
 }
+@media(max-width: 1024px){
+    main{
+        flex-direction: column;
+        
+    }
+    .right{
+        width: 95%;
+    }
+    .Childimg{
+        grid-row: span 1;
+        grid-column: span 3;
+    }
+
+}
+
